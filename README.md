@@ -2,7 +2,7 @@
 
 ```hcl
 module "ec2" {
-  source  = ""
+  source  = "Beishenov7/project/module"
   version = "0.0.1"
   region = "us-east-2"
   vpc_cidr = "10.0.0.0/16"
